@@ -1,0 +1,76 @@
+/* h.me client stylesheet */
+
+@font-face {
+  font-family: 'Abel';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Abel Regular'), local('Abel-Regular'), url(./abel.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@keyframes blinker {
+    to {opacity: .0;}
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background: black;
+    color: whitesmoke;
+    font-family: 'Abel', sans-serif;
+}
+
+input[type=text], input[type=text]:active, input[type=password], input[type=password]:active {
+    border: none;
+    border-style: none;
+    background-color: #003366;
+}
+
+.txt {
+    position: fixed;
+    bottom: 1.5em;
+    width: 98%;
+    text-align: center;
+    left: 0.5%;
+}
+
+form > input[type=text], input[type=password], .txt > form > input[type=text]:focus {
+    width: 100%;
+    left: 50% !important;
+    color: whitesmoke;
+    font-size: 18px;
+    outline: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.txt > form > input[type=text]::-webkit-input-placeholder {
+    animation: blinker 1s infinite;
+}
+
+.hidden {
+    display: none;
+}
+
+.background {
+  position:  absolute;
+  display:  block;
+  top: 0;
+  left: 0;
+  z-index: -900000; 
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.content {
+    position: fixed;
+    width: 98%;
+    left: 1% !important;
+    top: 1% !important;
+    max-height: 100% !important;
+    height: 1% !important;
+}

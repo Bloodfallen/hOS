@@ -1,0 +1,20 @@
+{
+  "name": "h.me-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "electron": "^7.1.9",
+    "electron-builder": "^21.2.0",
+    "jQuery": "^1.7.4",
+    "mysql": "^2.17.1",
+    "particles.js": "^2.0.0",
+    "particlesjs": "^2.2.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "electron ."
+  },
+  "author": "",
+  "license": "ISC"
+}

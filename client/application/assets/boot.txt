@@ -1,0 +1,301 @@
+TIM-1.0
+WTMI-devel-18.12.0-a0a1cb8
+WTMI: system early-init
+CPU VDD voltage default value: 1.108V
+NOTICE:  Booting Trusted Firmware
+NOTICE:  BL1: v1.5(release):1f8ca7e (Marvell-devel-18.12.2)
+NOTICE:  BL1: Built : 09:46:46, Feb 20 2019
+NOTICE:  BL1: Booting BL2
+NOTICE:  BL2: v1.5(release):1f8ca7e (Marvell-devel-18.12.2)
+NOTICE:  BL2: Built : 09:46:47, Feb 20 2019
+NOTICE:  BL1: Booting BL31
+NOTICE:  BL31: v1.5(release):1f8ca7e (Marvell-devel-18.12.2)
+NOTICE:  BL31: Built : 09:46:50
+
+U-Boot 2018.03-devel-18.12.3-gc9aa92c-armbian (Feb 20 2019 - 09:45:04 +0100)
+
+Model: Marvell Armada 3720
+       CPU     800 [MHz]
+       L2      800 [MHz]
+       TClock  200 [MHz]
+       DDR     800 [MHz]
+DRAM:  1 GiB
+Comphy chip #0:
+Comphy-0: USB3          5 Gbps    
+Comphy-1: PEX0          2.5 Gbps  
+Comphy-2: SATA0         6 Gbps    
+SATA link 0 timeout.
+AHCI 0001.0300 32 slots 1 ports 6 Gbps 0x1 impl SATA mode
+flags: ncq led only pmp fbss pio slum part sxs 
+PCIE-0: Link down
+MMC:   sdhci@d0000: 0, sdhci@d8000: 1
+Loading Environment from SPI Flash... SF: Detected w25q32dw with page size 256 Bytes, erase size 4 KiB, total 4 MiB
+OK
+Model: Marvell Armada 3720 Community Board hOS
+Net:   eth0: neta@30000 [PRIME]
+Hit any key to stop autoboot:  0 
+starting USB...
+USB0:   Register 2000104 NbrPorts 2
+Starting the controller
+USB XHCI 1.00
+USB1:   USB EHCI 1.00
+scanning bus 0 for devices... TIM-1.0
+WTMI-devel-18.12.0-a0a1cb8
+WTMI: system early-init
+CPU VDD voltage default value: 1.108V
+NOTICE:  Booting Trusted Firmware
+NOTICE:  BL1: v1.5(release):1f8ca7e (Marvell-devel-18.12.2)
+NOTICE:  BL1: Built : 09:46:46, Feb 20 2019
+NOTICE:  BL1: Booting BL2
+NOTICE:  BL2: v1.5(release):1f8ca7e (Marvell-devel-18.12.2)
+NOTICE:  BL2: Built : 09:46:47, Feb 20 2019
+NOTICE:  BL1: Booting BL31
+NOTICE:  BL31: v1.5(release):1f8ca7e (Marvell-devel-18.12.2)
+NOTICE:  BL31: Built : 09:46:50
+
+U-Boot 2018.03-devel-18.12.3-gc9aa92c-armbian (Feb 20 2019 - 09:45:04 +0100)
+
+Model: Marvell Armada 3720 Community Board hOS
+       CPU     800 [MHz]
+       L2      800 [MHz]
+       TClock  200 [MHz]
+       DDR     800 [MHz]
+DRAM:  1 GiB
+Comphy chip #0:
+Comphy-0: USB3          5 Gbps    
+Comphy-1: PEX0          2.5 Gbps  
+Comphy-2: SATA0         6 Gbps    
+SATA link 0 timeout.
+AHCI 0001.0300 32 slots 1 ports 6 Gbps 0x1 impl SATA mode
+flags: ncq led only pmp fbss pio slum part sxs 
+PCIE-0: Link down
+MMC:   sdhci@d0000: 0, sdhci@d8000: 1
+Loading Environment from SPI Flash... SF: Detected w25q32dw with page size 256 Bytes, erase size 4 KiB, total 4 MiB
+OK
+Model: Marvell Armada 3720 Community Board hOS
+Net:   eth0: neta@30000 [PRIME]
+Hit any key to stop autoboot:  0 
+starting USB...
+USB0:   Register 2000104 NbrPorts 2
+Starting the controller
+USB XHCI 1.00
+USB1:   USB EHCI 1.00
+scanning bus 0 for devices... 2 USB Device(s) found
+scanning bus 1 for devices... 1 USB Device(s) found
+       scanning usb for storage devices... 1 Storage Device(s) found
+/
+** Unrecognized filesystem type **
+## Executing script at 06d00000
+Wrong image format for "source" command
+/boot/
+** Unrecognized filesystem type **
+## Executing script at 06d00000
+Wrong image format for "source" command
+scanning bus for devices...
+
+Device 0: unknown device
+/
+** Bad device scsi 0 **
+## Executing script at 06d00000
+Wrong image format for "source" command
+/boot/
+** Bad device scsi 0 **
+## Executing script at 06d00000
+Wrong image format for "source" command
+/
+Card did not respond to voltage select!
+** Bad device mmc 1 **
+## Executing script at 06d00000
+Wrong image format for "source" command
+/boot/
+Card did not respond to voltage select!
+** Bad device mmc 1 **
+## Executing script at 06d00000
+Wrong image format for "source" command
+/
+** File not found /boot.scr **
+## Executing script at 06d00000
+Wrong image format for "source" command
+/boot/
+1120 bytes read in 13 ms (84 KiB/s)
+## Executing script at 06d00000
+221 bytes read in 5 ms (43 KiB/s)
+16421376 bytes read in 715 ms (21.9 MiB/s)
+4403814 bytes read in 198 ms (21.2 MiB/s)
+** File not found /boot/dtb/marvell/armada-3720-community.dtb **
+8942 bytes read in 9 ms (969.7 KiB/s)
+## Loading init Ramdisk from Legacy Image at 01100000 ...
+   Image Name:   uInitrd
+   Image Type:   AArch64 Linux RAMDisk Image (gzip compressed)
+   Data Size:    4403750 Bytes = 4.2 MiB
+   Load Address: 00000000
+   Entry Point:  00000000
+   Verifying Checksum ... OK
+## Flattened Device Tree blob at 06000000
+   Booting using the fdt blob at 0x6000000
+   Loading Ramdisk to 3f1f7000, end 3f62a226 ... OK
+   Using Device Tree in place at 0000000006000000, end 00000000060052ed
+
+Starting kernel ...
+
+[    0.000000] Booting Linux on physical CPU 0x0000000000 [0x410fd034]
+[    0.000000] Linux version 4.19.20-mvebu64 (root@ubuntu) (gcc version 7.2.1 20171011 (Linaro GCC 7.2-2017.11)) #5.76 SMP PREEMPT Sat Mar 9 17:05:30 CET 2019
+[    0.000000] Machine model: Globalscale Marvell hOS Board
+[    0.000000] earlycon: ar3700_uart0 at MMIO 0x00000000d0012000 (options '')
+[    0.000000] bootconsole [ar3700_uart0] enabled
+Loading, please wait...
+starting version 232
+Begin: Loading essential drivers ... done.
+Begin: Running /scripts/init-premount ... done.
+Begin: Mounting root file system ... Begin: Running /scripts/local-top ... done.
+Begin: Running /scripts/local-premount ... Scanning for Btrfs filesystems
+done.
+Begin: Will now check root file system ... fsck from util-linux 2.29.2
+fsck: error 2 (No such file or directory) while executing fsck.ext4 for /dev/mmcblk1p1
+fsck exited with status code 8
+done.
+Warning: File system check failed but did not detect errors
+done.
+Begin: Running /scripts/local-bottom ... done.
+Begin: Running /scripts/init-bottom ... done.
+
+Welcome to Debian GNU/Linux 9 (stretch)!
+
+[  OK  ] Started Forward Password Requests to Wall Directory Watch.
+[  OK  ] Listening on /dev/initctl Compatibility Named Pipe.
+[  OK  ] Created slice System Slice.
+         Mounting POSIX Message Queue File System...
+[  OK  ] Listening on udev Control Socket.
+[  OK  ] Listening on Journal Socket (/dev/log).
+[  OK  ] Listening on fsck to fsckd communication Socket.
+[  OK  ] Created slice system-getty.slice.
+[  OK  ] Started Dispatch Password Requests to Console Directory Watch.
+[  OK  ] Reached target Paths.
+[  OK  ] Listening on Network Service Netlink Socket.
+         Mounting Debug File System...
+[  OK  ] Reached target Remote File Systems.
+[  OK  ] Reached target Swap.
+[  OK  ] Reached target Encrypted Volumes.
+[  OK  ] Listening on Journal Socket.
+         Starting File System Check on Root Device...
+         Starting Create list of required st?.|ce nodes for the current kernel...
+         Starting Nameserver information manager...
+[  OK  ] Listening on Journal Audit Socket.
+         Starting Set the console keyboard layout...
+[  OK  ] Listening on Syslog Socket.
+         Starting Journal Service...
+[  OK  ] Created slice system-serial\x2dgetty.slice.
+         Mounting Huge Pages File System...
+         Starting Restore / save the current clock...
+[  OK  ] Created slice User and Session Slice.
+[  OK  ] Reached target Slices.
+[  OK  ] Listening on udev Kernel Socket.
+         Starting Load Kernel Modules...
+[  OK  ] Mounted POSIX Message Queue File System.
+[  OK  ] Mounted Huge Pages File System.
+[  OK  ] Mounted Debug File System.
+[  OK  ] Started Create list of required sta?.|vice nodes for the current kernel.
+[  OK  ] Started Restore / save the current clock.
+[  OK  ] Started Load Kernel Modules.
+[  OK  ] Started Nameserver information manager.
+[  OK  ] Started Journal Service.
+[  OK  ] Started File System Check Daemon to report status.
+         Starting Apply Kernel Variables...te)
+         Mounting Configuration File System...
+         Starting Create Static Device Nodes in /dev...
+[  OK  ] Mounted Configuration File System.te)
+[  OK  ] Started Apply Kernel Variables.
+[  OK  ] Started Create Static Device Nodes in /dev.
+         Starting udev Kernel Device Manager...
+[  OK  ] Started udev Kernel Device Manager.
+         Starting Network Service...
+[  OK  ] Started Network Service..2% complete)
+[  OK  ] Started Set the console keyboard layout.
+[  OK  ] Started File System Check on Root Device.
+         Starting Remount Root and Kernel File Systems...
+[  OK  ] Started Remount Root and Kernel File Systems.
+         Starting Load/Save Random Seed...
+         Starting Flush Journal to Persistent Storage...
+         Starting udev Coldplug all Devices...
+[  OK  ] Reached target Local File Systems (Pre).
+         Mounting /tmp...
+[  OK  ] Mounted /tmp.
+[  OK  ] Started Load/Save Random Seed.
+[  OK  ] Reached target Local File Systems.
+         Starting Armbian ZRAM config...
+         Starting Set console font and keymap...
+         Starting Raise network interfaces...
+[  OK  ] Started Flush Journal to Persistent Storage.
+[  OK  ] Started Set console font and keymap.
+         Starting Create Volatile Files and Directories...
+[  OK  ] Started Create Volatile Files and Directories.
+[  OK  ] Started Entropy daemon using the HAVEGE algorithm.
+         Starting Update UTMP about System Boot/Shutdown...
+[  OK  ] Reached target System Time Synchronized.
+[  OK  ] Started Update UTMP about System Boot/Shutdown.
+[  OK  ] Started udev Coldplug all Devices.
+[  OK  ] Started Armbian ZRAM config.
+[  OK  ] Started Raise network interfaces.
+         Starting Armbian memory supported logging...
+[  OK  ] Found device /dev/ttyMV0.
+[  OK  ] Started Armbian memory supported logging.
+[  OK  ] Reached target System Initialization.
+         Starting Armbian hardware optimization...
+[  OK  ] Started Daily apt download activities.
+[  OK  ] Started Daily apt upgrade and clean activities.
+[  OK  ] Started Daily Cleanup of Temporary Directories.
+[  OK  ] Reached target Timers.
+[  OK  ] Listening on D-Bus System Message Bus Socket.
+[  OK  ] Reached target Sockets.
+         Starting Armbian hardware monitoring...
+[  OK  ] Started Armbian hardware optimization.
+[  OK  ] Started Armbian hardware monitoring.
+[  OK  ] Reached target Basic System.
+[  OK  ] Started Regular background program processing daemon.
+         Starting LSB: Load kernel modules needed to enable cpufreq scaling...
+[  OK  ] Started D-Bus System Message Bus.
+         Starting System Logging Service...
+         Starting LSB: Start/stop sysstat's sadc...
+         Starting Login Service...
+         Starting Network Manager...
+[  OK  ] Started System Logging Service.
+[  OK  ] Started LSB: Start/stop sysstat's sadc.
+[  OK  ] Started Login Service.
+[  OK  ] Started LSB: Load kernel modules needed to enable cpufreq scaling.
+         Starting LSB: set CPUFreq kernel parameters...
+[  OK  ] Started LSB: set CPUFreq kernel parameters.
+         Starting LSB: Set sysfs variables from /etc/sysfs.conf...
+[  OK  ] Started Network Manager.
+[  OK  ] Reached target Network.
+         Starting OpenBSD Secure Shell server...
+         Starting Permit User Sessions...
+         Starting Network Name Resolution...
+[  OK  ] Started Unattended Upgrades Shutdown.
+         Starting Network Manager Wait Online...
+[  OK  ] Started LSB: Set sysfs variables from /etc/sysfs.conf.
+[  OK  ] Started Permit User Sessions.
+         Starting Network Manager Script Dispatcher Service...
+[  OK  ] Started Network Manager Script Dispatcher Service.
+         Starting Hostname Service...
+[  OK  ] Started OpenBSD Secure Shell server.
+[  OK  ] Started Hostname Service.
+[  OK  ] Started Network Name Resolution.
+         Starting Authorization Manager...
+[  OK  ] Started Network Manager Wait Online.
+[  OK  ] Reached target Network is Online.
+         Starting /etc/rc.local Compatibility...
+         Starting LSB: Advanced IEEE 802.11 management daemon...
+         Starting LSB: Start NTP daemon...
+[  OK  ] Started /etc/rc.local Compatibility.
+[  OK  ] Started LSB: Advanced IEEE 802.11 management daemon.
+[  OK  ] Started Serial Getty on ttyMV0.
+[  OK  ] Started Getty on tty1.
+[  OK  ] Reached target Login Prompts.
+[  OK  ] Started Authorization Manager.
+[  OK  ] Started LSB: Start NTP daemon.
+[  OK  ] Reached target Multi-User System.
+[  OK  ] Reached target Graphical Interface.
+         Starting Update UTMP about System Runlevel Changes...
+[  OK  ] Started Update UTMP about System Runlevel Changes.
+
+Debian GNU/Linux 9 hOS tty0
