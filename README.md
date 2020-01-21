@@ -1,7 +1,6 @@
 # hOS - The free, open source, cross-platform hacking simulation game.
 
-![dependencies](https://david-dm.org/Bloodfallen/hOS.svg) [![Build Status](https://travis-ci.org/Bloodfallen/hOS.png?branch=master)](https://travis-ci.org/Bloodfallen/hOS)
-
+![dependencies](https://david-dm.org/Bloodfallen/hOS.svg)
 ## 1. What is hOS?
 hOS is a game I was inspired to develop. It is based heavily off the gameplay of both Hacknet and Hackmud, designed to be
 cross platform, and run entirely on NodeJS, utilizing Electron.
