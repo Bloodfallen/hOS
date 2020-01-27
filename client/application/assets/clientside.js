@@ -73,6 +73,7 @@ var boot = {
             }).on('error', (err) => {
                 darwin.client.newLine("Connection to hOS Servers failed. hOS may be offline, or your connection details may be incorrect.");
                 darwin.client.newLine("Note: you can still perform client side commands, such as 'game_settings'");
+                darwin.client.newLine("You can still play singleplayer. To do so, run 'singleplayer'");
                 hasErrored = 1;
                 throw err;
             }).on('end', () => {
@@ -145,10 +146,28 @@ var darwin = {
                     }, 250);
                     
                 }
+            },
+            singleplayer: {
+                play: function() {
+                    // loads the singleplayer game menu.
+
+                }
             }
         }
     }
 };
+
+var saveSelectorInput = document.getElementById('saveForm');
+saveForm.addEventListener('submit', event => {
+    event.preventDefault();
+    var saveInput = document.getElementById('saveSelector').val();
+    if(saveInput === 'new') {
+        darwin.client.newLine('Creating new instance...');
+        darwin.singleplayer.newSave();
+    } else {
+        darwin.singleplayer.loadSave(saveInput);
+    }
+});
 
 var cmdbox = document.getElementById('commandBoxForm');
 cmdbox.addEventListener('submit', event => {
@@ -205,3 +224,4 @@ $('.settings > input[type=range]').on('input', function() {
     var rangeValue = $('.settings > input[type=range]').val();
     darwin.client.settings.music.volume(rangeValue);
 });
+

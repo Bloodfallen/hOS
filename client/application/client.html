@@ -14,6 +14,12 @@
             <input type="range" min=0 max=1 step=0.1 value=1>
             <button onclick="darwin.client.commands.game_settings(false)">Done</button>
         </div>
+        <div class="sp_menu" id="sp_menu" style="display: none;">
+            <form id="saveForm">
+                <span>Enter the name of a save. To make a new save, type "new".</span>
+                <input type="text" class="saveSelector" placeholder="Enter save name or type 'new'">
+            </form>
+        </div>
         <div class="login" style="display: none;">
             <form id="loginForm" class="loginForm" style="position: absolute; right: 10px;">
                 <span>Enter login credentials</span><br>

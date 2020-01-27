@@ -74,3 +74,7 @@ form > input[type=text], input[type=password], .txt > form > input[type=text]:fo
     max-height: 100% !important;
     height: 1% !important;
 }
+
+.verbose {
+    background-color: #800000 !important;
+}

@@ -1,0 +1,14 @@
+{
+  "name": "hos-update",
+  "version": "1.0.0",
+  "description": "the updater for the hOS project",
+  "main": "index.js",
+  "scripts": {
+    "test": "electron ."
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^7.1.10"
+  }
+}
